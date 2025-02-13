@@ -47,7 +47,7 @@ public class ProcessScheduler {
           "Follow-up process '%s' triggered.".formatted(processName.getName()),
           Map.of(
               "followUpProcessId",
-              nextProcessId,
+              nextProcessId.getId(),
               "followUpProcess",
               processName.getName(),
               // this should be done differently:

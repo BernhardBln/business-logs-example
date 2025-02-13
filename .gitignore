@@ -2,6 +2,9 @@
 *.class
 target/
 
+# intellij
+.idea
+
 # Log file
 *.log
 

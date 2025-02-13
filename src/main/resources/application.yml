@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: business-logs-example
+  datasource:
+    url: jdbc:postgresql://localhost:15432/postgres
+    username: postgres
+
+#logging:
+#  structured:
+#    format:
+#      console: ecs
